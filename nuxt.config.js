@@ -27,6 +27,10 @@ export default {
    */
   css: [],
 
+  plugins: [
+    '~/plugins/vuetify'
+  ],
+
   /*
    ** Plugins to load before mounting the App
    */
@@ -38,9 +42,9 @@ export default {
     // Doc: https://github.com/nuxt-community/axios-module#usage
   ],
 
-  buildModules: [
-    '@nuxtjs/vuetify'
-  ],
+  // buildModules: [
+  //   '@nuxtjs/vuetify'
+  // ],
   // vuetify: {
     // treeShake: loaderOptions
   // },
