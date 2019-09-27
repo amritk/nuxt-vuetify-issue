@@ -15,7 +15,8 @@
     "cross-env": "5.2.0",
     "fs": "^0.0.2",
     "nuxt": "2.9.2",
-    "recursive-readdir": "^2.2.2"
+    "recursive-readdir": "^2.2.2",
+    "vuetify": "^2.0.19"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
