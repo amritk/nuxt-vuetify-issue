@@ -1,4 +1,5 @@
 import pkg from "./package.json";
+// import loaderOptions  from './vuetify.options'
 
 export default {
   mode: "universal",
@@ -40,9 +41,9 @@ export default {
   buildModules: [
     '@nuxtjs/vuetify'
   ],
-  vuetify: {
-    optionsPath: './vuetify.options.js'
-  },
+  // vuetify: {
+    // treeShake: loaderOptions
+  // },
   /*
    ** Axios module configuration
    */

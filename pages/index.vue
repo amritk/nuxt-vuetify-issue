@@ -1,14 +1,14 @@
 <template>
   <div id="app" style="width:100%;">
     <v-app id="inspire">
-      <v-tabs centered>
+      <v-tabs v-model="tab" centered>
         <v-tab>Tab 1</v-tab>
         <v-tab>Tab 2</v-tab>
         <v-tab>Tab 3</v-tab>
         <v-tab>Tab 4</v-tab>
-        <logo></logo>
-        <icon-link></icon-link>
       </v-tabs>
+      <logo></logo>
+      <icon-link></icon-link>
     </v-app>
   </div>
 </template>
@@ -17,6 +17,11 @@
 import "vuetify/dist/vuetify.css";
 
 export default {
+  data () {
+    return {
+      tab: null
+    }
+  }
 };
 </script>
 
